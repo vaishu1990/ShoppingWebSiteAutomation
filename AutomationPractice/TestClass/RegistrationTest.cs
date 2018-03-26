@@ -25,7 +25,7 @@ namespace AutomationPractice.TestClass
         {
             ExtentReports extent = new ExtentReports(Constants.REPORT_PATH+"Registration_Tests_"+ DateTime.Now.ToString("dd_MM_yyyy_HH-mm-ss") + ".html", true);
 
-            ExtentTest test = new ExtentTest("Test Case Name", "Sample Description");
+            ExtentTest test = new ExtentTest("Test Case Name", "Test Case description");
 
             try
             {
