@@ -10,5 +10,7 @@ namespace AutomationPractice.Utilities
     {
         public static String SCREENSHOT_PATH = "C://Reports//Screenshots//";
         public static String REPORT_PATH = "C://Reports//";
+        public static String TEST_STRING = "Do not use this";
+
     }
 }
