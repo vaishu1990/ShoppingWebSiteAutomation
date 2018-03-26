@@ -23,7 +23,7 @@ namespace AutomationPractice.TestClass
         [TestMethod]
         public void Registration()
         {
-            ExtentReports extent = new ExtentReports(Constants.REPORT_PATH+"Registration_Tests"+ DateTime.Now.ToString("dd_MM_yyyy_HH-mm-ss") + ".html", true);
+            ExtentReports extent = new ExtentReports(Constants.REPORT_PATH+"Registration_Tests_"+ DateTime.Now.ToString("dd_MM_yyyy_HH-mm-ss") + ".html", true);
 
             ExtentTest test = new ExtentTest("Test Case Name", "Sample Description");
 
